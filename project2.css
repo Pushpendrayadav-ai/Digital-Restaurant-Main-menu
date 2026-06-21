@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4WApPCUDdYDTWYhe3ldFiSImcylm88XjZ0Q&s");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+header{
+    text-align:center;
+    color:white;
+    background-color:rgba(0,0,0,0.6);
+    padding:25px;
+}
+
+header p{
+    font-size:18px;
+}
+
+.about,
+.reviews,
+.contact{
+    width:80%;
+    margin:25px auto;
+    background-color:rgba(255,255,255,0.9);
+    padding:20px;
+    border-radius:15px;
+}
+
+.about h2,
+.reviews h2,
+.contact h2{
+    text-align:center;
+    color:darkred;
+}
+
+table{
+    width:80%;
+    margin:30px auto;
+    border-collapse:collapse;
+    background-color:rgba(255,255,255,0.92);
+}
+
+caption{
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+    background-color:rgba(0,0,0,0.7);
+    padding:12px;
+}
+
+th{
+    background-color:darkred;
+    color:white;
+}
+
+th,td{
+    border:1px solid black;
+    padding:12px;
+    text-align:center;
+}
+
+tr:hover{
+    background-color:#ffe4b5;
+}
+
+.review-box{
+    background-color:#fff5e6;
+    padding:15px;
+    margin:15px 0;
+    border-left:5px solid darkred;
+}
+
+footer{
+    text-align:center;
+    background-color:rgba(0,0,0,0.8);
+    color:white;
+    padding:15px;
+    margin-top:30px;
+}
